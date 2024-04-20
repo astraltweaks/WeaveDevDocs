@@ -13,5 +13,5 @@ Weave supports Yarn and MCP mappings depending on what version you are developin
 5. Setting up hooks in Kotlin
 6. Using the EventBus
 7. Creating custom events
-8. Preventing premature initialization using events in Java
+8. [Preventing premature initialization using events in Java](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/java/PreventPreInitIssues.md)
 9. Preventing premature initialization using events in Kotlin
