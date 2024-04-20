@@ -7,7 +7,7 @@ To use Weave Manager, all you have to do is launch your version and client of ch
 Weave supports Yarn and MCP mappings depending on what version you are developing for, this guide goes over development for 1.8.9, but it should be fairly easy to adapt your mod to work for the later versions. Weave supports versions 1.7-1.20, on Vanilla, LabyMod 4, Lunar Client and Forge. <br /><br />
 # Table of Contents
 1. [Adding Weave to your Project and configuring your gradle file.](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/general/GradleSetup.md)
-2. Setting up an entrypoint in Java
+2. [Setting up an entrypoint in Java](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/java/Entrypoint.md)
 3. Setting up an entrypoint in Kotlin
 4. Setting up mixins
 5. Setting up hooks in Kotlin
