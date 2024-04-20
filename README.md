@@ -8,7 +8,7 @@ Weave supports Yarn and MCP mappings depending on what version you are developin
 # Table of Contents
 1. [Adding Weave to your Project and configuring your gradle file.](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/general/GradleSetup.md)
 2. [Setting up an entrypoint in Java](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/java/Entrypoint.md)
-3. Setting up an entrypoint in Kotlin
+3. [Setting up an entrypoint in Kotlin](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/kotlin/Entrypoint.md)
 4. Using the EventBus
 5. Creating custom events
 6. [Preventing premature initialization using events in Java](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/java/PreventPreInitIssues.md)
