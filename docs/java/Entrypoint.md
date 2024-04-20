@@ -1,4 +1,4 @@
-Creating an entrypoint in Weave is trivial, simply make the class implement the ModInitializer and implement and override method called preInit with instrumentation (Add @NotNull since we're using Java) and then all of that logic will be called before the game starts. <br >
+Creating an entrypoint in Weave is trivial, simply make the class implement the ModInitializer and implement an override method called preInit with instrumentation (Add @NotNull since we're using Java) and then all of that logic will be called before the game starts.
 # Code Snippet
 ```java
 package com.example.mod;
