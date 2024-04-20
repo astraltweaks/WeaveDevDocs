@@ -22,7 +22,7 @@ This can be used in practice like this:
 ```kotlin
 @SubscribeEvent
 fun onChat(e: ChatEvent) {
-    if (e.message == hi) {
+    if (e.message == "hi") {
       e.cancelled = true
       println("Message was hi, therefore it wasn't sent.")
   }
