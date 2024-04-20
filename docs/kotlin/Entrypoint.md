@@ -1,4 +1,4 @@
-Creating an entrypoint in Weave is trivial, simply extend the ModInitializer and implement and override function called preInit with instrumentation and then all of that logic will be called before the game starts.
+Creating an entrypoint in Weave is trivial, simply make your class implement the ModInitializer then implement an override function called preInit with instrumentation in the parameters and then all of that logic will be called before the game starts.
 # Code Snippet
 ```kotlin
 package com.example.mod
