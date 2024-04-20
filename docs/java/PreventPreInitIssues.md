@@ -37,3 +37,4 @@ import net.weavemc.api.event.Event;
 
 public class InitEvent extends Event {}
 ```
+YOU MUST POST THE EVENT ON YOUR OWN. I use this as an example in the [Mixin guide](https://github.com/astraltweaks/WeaveDevDocs/new/main/docs/general/Mixins.md)! Please refer to it!
