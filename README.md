@@ -9,9 +9,9 @@ Weave supports Yarn and MCP mappings depending on what version you are developin
 1. [Adding Weave to your Project and configuring your gradle file.](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/general/GradleSetup.md)
 2. [Setting up an entrypoint in Java](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/java/Entrypoint.md)
 3. [Setting up an entrypoint in Kotlin](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/kotlin/Entrypoint.md)
-4. Using the EventBus
-5. Creating custom events
+4. [Using the EventBus](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/general/EventBusUse.md)
+5. [Creating custom events](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/general/CustomEvents.md)
 6. [Preventing premature initialization using events in Java](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/java/PreventPreInitIssues.md)
-7. Preventing premature initialization using events in Kotlin
+7. [Preventing premature initialization using events in Kotlin](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/kotlin/PreventPreInitIssues.md)
 8. [Setting up mixins](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/general/Mixins.md)
-9. Setting up hooks in Kotlin
+9. [Setting up hooks in Kotlin (kinda lacking)](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/kotlin/Hooks.md) 
