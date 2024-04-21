@@ -1,5 +1,6 @@
 We will be using the Kotlin DSL for our Gradle file. <br >
-We'll start by creating a `build.gradle.kts` and `settings.gradle.kts` file. Read the comments accordingly to understand what's going on.
+We'll start by creating a `build.gradle.kts` and `settings.gradle.kts` file. Read the comments accordingly to understand what's going on. <br >
+(Weave requires Gradle 8.4 or newer)
 # build.gradle.kts
 ```kotlin
 plugins {
