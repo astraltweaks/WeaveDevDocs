@@ -1,6 +1,6 @@
 # Preventing premature initialization
-Premature initialization is your mod loads before Minecraft, which would result in a crash since you are trying to use packages from Minecraft that at this time, aren't loaded. <br >
-You'll want to subscribe an event in your preinit, which when posted (after MC is initialized) will call the logic for your mod. In this case, InitEvent.
+Premature initialization is when your mod loads before Minecraft, which would result in a crash since you are trying to use packages from Minecraft that at this time, aren't loaded. <br >
+You'll want to subscribe an event in your `preInit`, which will call the logic for your mod when posted (after MC is initialized). In this case, InitEvent.
  
 ```java
 package com.example.mod;
@@ -37,4 +37,4 @@ import net.weavemc.api.event.Event;
 
 public class InitEvent extends Event {}
 ```
-YOU MUST POST THE EVENT ON YOUR OWN. I use this as an example in the [Mixin guide](https://github.com/astraltweaks/WeaveDevDocs/new/main/docs/general/Mixins.md)! Please refer to it!
+YOU MUST POST THE EVENT ON YOUR OWN. I use this as an example in the [Mixin guide](https://github.com/astraltweaks/WeaveDevDocs/blob/main/docs/general/Mixins.md)! Please refer to it!
